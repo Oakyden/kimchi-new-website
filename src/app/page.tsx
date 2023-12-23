@@ -18,7 +18,7 @@ import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.sv
 import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
-import imageLaptop from '@/images/laptop.jpg'
+import imageYorkMinster from '@/images/yorkMinster.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
@@ -34,7 +34,7 @@ const clients = [
 
 function Clients() {
   return (
-    <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
+    <div className="mt-24 rounded-4xl bg-rose-600 py-20 sm:mt-32 sm:py-32 lg:mt-56">
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
@@ -73,9 +73,8 @@ function CaseStudies({
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe technology is the answer to the world’s greatest
-          challenges. It’s also the cause, so we find ourselves in bit of a
-          catch 22 situation.
+          We believe the best solutions are the ones that provide the least friction between the user and their end goal.
+          Technology at its best is almost invisible.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -130,8 +129,8 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          Whether you need a functional piece of software to automate a bespoke business flow for operations, or seek a sleek
+          mobile app full of animations, we have the expertise to deliver.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -139,7 +138,7 @@ function Services() {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imageLaptop}
+                src={imageYorkMinster}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
@@ -147,23 +146,23 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+              We specialise in crafting beautiful, high quality brochure sites. We can either do a bespoke
+              site with no admin tools to edit, or we can build on top of a CMS so you can edit your site at will
+              moving forward.
             </ListItem>
             <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+              We can deliver custom mobile apps and web apps for a variety of needs. We like to talk to a vairety of users
+              both internal to your organisation and external to really understand the goal you aim to achieve. From there we
+              wireframe and provide a full set of designs, before embarking on coding.
             </ListItem>
             <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+              Whether its selling a product, seeking to gain donations for a non-profit or selling a service, we have implemented
+              eCommerce solutions for Wordpress, Drupal and beyond.
             </ListItem>
             <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+              Our favoured CMS are 'headless' CMS, these allow the front end and design to be entirely independent of the backend CMS
+              used. However, should you seek a more 'standard' CMS where the editor tool and front end are all one code monlith we are happy to
+              work with traditional Drupal or Wordpress.
             </ListItem>
           </List>
         </div>
@@ -185,12 +184,10 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in Denmark.
+            Software, Mobile and Web development agency based in York.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+            We are a development agency specialising in Web and Mobile. We build websites, bespoke solutions and mobile apps (both android and iOS) from the ground up.
           </p>
         </FadeIn>
       </Container>
@@ -201,11 +198,11 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Phobia', logo: logoPhobiaDark }}
+        client={{ name: 'Jack Latus, Latus Health', logo: logoPhobiaDark }}
       >
-        The team at Studio went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
+        I had the privilege today, of interviewing Alan Oakden, and getting a glimpse into his genius mind. 
+        Alan is the brains behind Yodha Health and as managing director of Kimchi Digital, leads our R&D projects at LATUS, which is quickly becoming a vital part
+        of our business, and a key differentiator against the rest of the dinosaur occupational health industry. 
       </Testimonial>
 
       <Services />

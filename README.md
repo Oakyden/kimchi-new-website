@@ -1,10 +1,10 @@
 # Studio
 
-Studio is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+The Kimchi Digital website is built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
 ## Getting started
 
-To get started with this template, first install the npm dependencies:
+To get started with this site, first install the npm dependencies:
 
 ```bash
 npm install
@@ -24,11 +24,11 @@ You can start editing this template by modifying the files in the `/src` folder.
 
 ## License
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+This site was started with a template - it is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
 
 ## Learn more
 
-To learn more about the technologies used in this site template, see the following resources:
+To learn more about the technologies used in this site, see the following resources:
 
 - [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
 - [Next.js](https://nextjs.org/docs) - the official Next.js documentation
